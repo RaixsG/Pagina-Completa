@@ -1,0 +1,133 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.caja {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: none;
+}
+
+/*MAIN*/
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0 !important;
+
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 30%;
+}
+
+.checkbox {
+    margin: 20px 0; 
+}
+/* GERARQUIA DE SELECCION
+h3 {
+    color: red;
+}
+
+form h3 {
+    color: blue;
+}
+
+.color {
+    color: #C78C19;
+}
+
+#color {
+    color: aqua;
+}
+*/
+
+
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #dda73a;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #ffaa00;
+    transform: scale(1.1);
+}
+
+main table {
+    margin: 40px 40px;
+}
+
+table thead {
+    background:rgb(100, 95, 95);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+table td, th, tr {
+    border: 1px solid black;
+    padding: 8px 5px;
+}
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 20px 0px 0px;
+    padding-bottom: 10px;
+}
